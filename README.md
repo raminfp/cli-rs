@@ -54,3 +54,19 @@ fn main() {
 }
 
 ```
+
+#### Output 
+```bash
+# cargo run
+    Finished dev [unoptimized + debuginfo] target(s) in 0.03s
+     Running `target/debug/cmd-rs`
+Welcome to Rust command interpreter!
+[cmd-rs] help
+Help
+[cmd-rs] hello world! 
+Hello world!
+[cmd-rs] about
+About me
+[cmd-rs] quit
+
+```
