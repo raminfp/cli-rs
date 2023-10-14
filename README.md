@@ -10,10 +10,10 @@ A line-oriented command interpreter, also known as a command-line interpreter or
 ```rust
 use std::cell::RefCell;
 use std::rc::Rc;
-use cmd_rs::cli::cmd::CommandHandler;
-use cmd_rs::cli::cmd::Cmd;
-use cmd_rs::about;
-use cmd_rs::hello;
+use cli_rs::cli::cmd::CommandHandler;
+use cli_rs::cli::cmd::Cmd;
+use cli_rs::about;
+use cli_rs::hello;
 
 struct QuitCommand;
 struct HelpCommand;
@@ -42,13 +42,14 @@ fn main() {
     cmd.cmdloop();
 }
 
+
 ```
 
 #### Output 
 ```bash
 # cargo run
     Finished dev [unoptimized + debuginfo] target(s) in 0.03s
-     Running `target/debug/cmd-rs`
+     Running `target/debug/cli-rs`
 Welcome to Rust command interpreter!
 [cli-rs] help
 Help

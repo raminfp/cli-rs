@@ -1,9 +1,9 @@
 use std::cell::RefCell;
 use std::rc::Rc;
-use cmd_rs::cli::cmd::CommandHandler;
-use cmd_rs::cli::cmd::Cmd;
-use cmd_rs::about;
-use cmd_rs::hello;
+use cli_rs::cli::cmd::CommandHandler;
+use cli_rs::cli::cmd::Cmd;
+use cli_rs::about;
+use cli_rs::hello;
 
 struct QuitCommand;
 struct HelpCommand;
