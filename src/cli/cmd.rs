@@ -3,7 +3,7 @@ use std::io::{self, Write};
 use std::cell::RefCell;
 use std::rc::Rc;
 
-const PROMPT: &str = "[cmd-rs] ";
+const PROMPT: &str = "[cli-rs] ";
 
 // Define a trait for command handling
 pub trait CommandHandler {

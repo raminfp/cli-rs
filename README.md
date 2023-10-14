@@ -61,12 +61,12 @@ fn main() {
     Finished dev [unoptimized + debuginfo] target(s) in 0.03s
      Running `target/debug/cmd-rs`
 Welcome to Rust command interpreter!
-[cmd-rs] help
+[cli-rs] help
 Help
-[cmd-rs] hello world! 
+[cli-rs] hello world! 
 Hello world!
-[cmd-rs] about
+[cli-rs] about
 About me
-[cmd-rs] quit
+[cli-rs] quit
 
 ```
